@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import WhyUsSection from "@/components/WhyUsSection";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 
         <HeroSection />
         <FeaturedCourses />
+        <WhyUsSection />
 
       </main>
     </>

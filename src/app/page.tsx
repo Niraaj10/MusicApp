@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import MusicCards from "@/components/MusicCards";
 import UpcomingWeb from "@/components/UpcomingWeb";
 import WhyUsSection from "@/components/WhyUsSection";
@@ -15,6 +16,7 @@ export default function Home() {
         <WhyUsSection />
         <MusicCards />
         <UpcomingWeb />
+        <Instructors />
 
       </main>
     </>
